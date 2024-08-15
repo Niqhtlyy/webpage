@@ -5,6 +5,10 @@ body {
     color: #FFFFFF;
 }
 
+element {
+  background-image: url('path/to/stars.gif');
+}
+
 .container {
     display: flex;
     height: 100vh;
