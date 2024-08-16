@@ -1,13 +1,11 @@
 body {
     margin: 0;
     font-family: Consolas, monaco, monospace;
-    /* background-color: #181818; */
-   /* color: #FFFFFF; */
-
-    background-image: url('images/stars.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url('images/stars.gif'); /* Set GIF as background */
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the GIF */
+    background-position: center; /* Center the GIF in the viewport */
+    color: #FFFFFF;
 }
 
 .container {
@@ -17,7 +15,7 @@ body {
 
 .sidebar {
     width: 25%;
-    background-color: #0F0F0F;
+    background-color: rgba(15, 15, 15, 0.8); /* Slightly transparent background */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,14 +80,14 @@ body {
 }
 
 .intro {
-    background-color: #333333;
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
 .social-links {
-    background-color: #333333;
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
     padding: 20px;
     border-radius: 5px;
 }
