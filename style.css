@@ -6,7 +6,7 @@ body {
 }
 
 element {
-  background-image: url('path/to/stars.gif');
+  background-image: url('images/stars.gif');
 }
 
 .container {
