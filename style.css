@@ -13,6 +13,32 @@ body {
     height: 100vh;
 }
 
+.nav-menu {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center the nav items horizontally */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-menu li {
+    position: relative; /* Positioning context for tooltips */
+    margin: 0 10px; /* Space between navigation items */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
 .sidebar {
     width: 25%;
     background-color: rgba(15, 15, 15, 0.8); /* Slightly transparent background */
@@ -88,32 +114,6 @@ body {
 .sidebar-icons img {
     width: 48px;
     height: auto;
-}
-
-.nav-menu {
-    display: flex; /* Use Flexbox for layout */
-    justify-content: center; /* Center the nav items horizontally */
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.nav-menu ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.nav-menu li {
-    position: relative; /* Positioning context for tooltips */
-    margin: 0 10px; /* Space between navigation items */
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: #000;
-    padding: 10px;
 }
 
 .tooltip {
