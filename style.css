@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Consolas, monaco, monospace;
-    background-color: #181818;
-    color: #FFFFFF;
+    /* background-color: #181818; */
+   /* color: #FFFFFF; */
 
     background-image: url('images/stars.gif');
     background-size: cover;
