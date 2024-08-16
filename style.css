@@ -1,27 +1,31 @@
+/* General body styling */
 body {
     margin: 0;
     font-family: Consolas, monaco, monospace;
-    background-image: url('images/stars.gif'); /* Set GIF as background */
-    background-size: cover; /* Ensure the background covers the entire viewport */
-    background-repeat: no-repeat; /* Prevent repeating the GIF */
-    background-position: center; /* Center the GIF in the viewport */
+    background-image: url('images/stars.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #FFFFFF;
 }
 
+/* Container for layout */
 .container {
     display: flex;
     height: 100vh;
 }
 
+/* Sidebar styling */
 .sidebar {
     width: 25%;
-    background-color: rgba(15, 15, 15, 0.8); /* Slightly transparent background */
+    background-color: rgba(15, 15, 15, 0.8);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
+/* Profile section styling */
 .profile img {
     width: 100px;
     height: 100px;
@@ -35,9 +39,15 @@ body {
     color: #F0F0F0;
 }
 
+/* Navigation menu styling */
+.nav-menu {
+    width: 100%;
+}
+
 .nav-menu ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
     width: 100%;
     text-align: center;
 }
@@ -60,6 +70,7 @@ body {
     background-color: #555555;
 }
 
+/* Icons section styling */
 .icons {
     margin-top: auto;
     display: flex;
@@ -71,6 +82,7 @@ body {
     height: 30px;
 }
 
+/* Main content styling */
 .main-content {
     width: 75%;
     padding: 20px;
@@ -79,15 +91,17 @@ body {
     justify-content: center;
 }
 
+/* Intro section styling */
 .intro {
-    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
+    background-color: rgba(51, 51, 51, 0.8);
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
+/* Social links section styling */
 .social-links {
-    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
+    background-color: rgba(51, 51, 51, 0.8);
     padding: 20px;
     border-radius: 5px;
 }
@@ -110,6 +124,7 @@ body {
     background-color: #777777;
 }
 
+/* Sidebar icons styling */
 .sidebar-icons img {
     width: 48px;
     height: auto;
