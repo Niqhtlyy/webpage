@@ -3,10 +3,11 @@ body {
     font-family: Consolas, monaco, monospace;
     background-color: #181818;
     color: #FFFFFF;
-}
 
-element {
-  background-image: url('images/stars.gif');
+    background-image: url('images/stars.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
