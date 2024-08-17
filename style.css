@@ -114,3 +114,16 @@ body {
     width: 48px;
     height: auto;
 }
+
+  .image-container {
+    width: auto;
+    height: auto;
+    display: inline-block;  /* Container adjusts to the image size */
+  }
+
+  .pin-image {
+    width: 80px;       /* Set explicit size */
+    height: auto;       /* Maintain aspect ratio */
+    max-width: 100%;    /* Prevents it from exceeding container size */
+    display: block;     /* Avoid inline behavior */
+  }
