@@ -267,23 +267,3 @@ ul li {
 .privacy-box a:hover {
     text-decoration: underline;
 }
-
-
-@media (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-    .container {
-      width: 100%;
-      padding: 10px;
-    }
-    .sidebar {
-      display: none;
-    }
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
