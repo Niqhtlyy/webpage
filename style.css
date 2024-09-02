@@ -210,4 +210,60 @@ ul li {
     margin: 0;
 }
 
+/* Main content styling */
+.main-content {
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+    /* No need for extra height settings */
+}
 
+/* Privacy box styling */
+.privacy-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    width: 80%; /* Limit the box width to avoid it getting too large */
+    max-width: 600px; /* Maximum width to prevent it from getting too wide */
+    text-align: left;
+}
+
+/* Headings Styling */
+.privacy-box h1, .privacy-box h2 {
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.privacy-box h1 {
+    font-size: 36px;
+}
+
+.privacy-box h2 {
+    font-size: 28px;
+}
+
+/* Paragraph and Link Styling */
+.privacy-box p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+    text-align: justify;
+}
+
+.privacy-box a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.privacy-box a:hover {
+    text-decoration: underline;
+}
