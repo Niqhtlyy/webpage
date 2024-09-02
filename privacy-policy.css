@@ -92,3 +92,22 @@ body {
         font-size: 22px;
     }
 }
+
+
+/* Container for the buttons */
+.button-container {
+    text-align: center; /* Center-align the buttons */
+    margin-top: 20px;   /* Add some space above the button container */
+}
+
+/* Style for each button */
+.button {
+    display: inline-block; /* Make the links display as buttons */
+    padding: 10px 20px;    /* Add padding inside the buttons */
+    margin: 5px;           /* Add some space between buttons */
+    background-color: #363636; /* Background color */
+    color: white;          /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px;    /* Rounded corners */
+    font-size: 16px;       /* Font size */
+}
