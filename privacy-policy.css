@@ -93,21 +93,22 @@ body {
     }
 }
 
-
 /* Container for the buttons */
 .button-container {
-    text-align: center; /* Center-align the buttons */
-    margin-top: 20px;   /* Add some space above the button container */
+    display: flex;               /* Use flexbox to align buttons horizontally */
+    justify-content: center;     /* Center-align buttons horizontally */
+    gap: 10px;                   /* Space between buttons */
+    margin-top: 20px;            /* Space above the button container */
 }
 
 /* Style for each button */
 .button {
-    display: inline-block; /* Make the links display as buttons */
-    padding: 10px 20px;    /* Add padding inside the buttons */
-    margin: 5px;           /* Add some space between buttons */
-    background-color: #363636; /* Background color */
-    color: white;          /* Text color */
-    text-decoration: none; /* Remove underline from links */
-    border-radius: 5px;    /* Rounded corners */
-    font-size: 16px;       /* Font size */
+    display: inline-block;       /* Ensure buttons are displayed inline */
+    padding: 10px 20px;          /* Padding inside the buttons */
+    background-color: #333;      /* Greyish-black background color */
+    color: white;                /* Text color */
+    text-decoration: none;       /* Remove underline from links */
+    border-radius: 5px;          /* Rounded corners */
+    font-size: 16px;             /* Font size */
+    border: 1px solid #222;      /* Border color */
 }
