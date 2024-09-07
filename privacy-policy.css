@@ -132,4 +132,23 @@ body {
       display: none;
     }
   }
+
+  .footer {
+    background-color: #4545455b;
+    padding: 17px;
+    text-align: center;
+    width: 100vw;
+}
+
+.footer a {
+    color: #ffffff;
+    font-family: Consolas, monaco, monospace;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
   
