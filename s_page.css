@@ -12,6 +12,12 @@ body {
     height: 100vh; /* Full viewport height */
 }
 
+h1 {
+    color: #ffffff; /* White heading */
+    text-align: center;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
 #content {
     background-color: #1e1e1e; /* Darker content background */
     border: 1px solid #333; /* Border color */
@@ -19,14 +25,6 @@ body {
     padding: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
     text-align: center; /* Center text inside content */
-    display: flex; /* Make the content a flex container */
-    flex-direction: column; /* Arrange children vertically */
-    align-items: center; /* Center children horizontally */
-}
-
-h1 {
-    color: #ffffff; /* White heading */
-    margin-bottom: 20px; /* Space below the heading */
 }
 
 #access {
@@ -50,7 +48,6 @@ button {
     color: white;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 10px; /* Space between input and button */
 }
 
 button:hover {
@@ -60,5 +57,4 @@ button:hover {
 .alert {
     color: red;
     text-align: center;
-    margin-top: 15px; /* Space above alert */
 }
