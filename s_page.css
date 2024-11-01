@@ -16,7 +16,7 @@ body {
     text-align: center; /* Center text inside content */
     background-color: #1e1e1e; /* Darker content background */
     border: 1px solid #333; /* Border color */
-    border-radius: 5px;
+    border-radius: 8px; /* Rounded corners */
     padding: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
     width: 90%; /* Make it responsive */
@@ -51,6 +51,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin-left: 10px; /* Space between input and button */
+    transition: background-color 0.3s ease; /* Smooth background transition */
 }
 
 button:hover {
@@ -60,4 +61,5 @@ button:hover {
 .alert {
     color: red;
     text-align: center;
+    margin-top: 15px; /* Space above alert */
 }
