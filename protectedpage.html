@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, content=initial-scale=1.0">
     <title>Protected Page</title>
+    <link rel="stylesheet" href="s_page.css">
     <link rel="shortcut icon" href="/images/paw-64.ico?v=1" type="image/x-icon">
 
     <style>
@@ -18,13 +19,13 @@
         <div id="access">
             <input type="password" id="passphrase" placeholder="Enter passphrase" />
             <button id="submitBtn">Submit</button>
-        </div>
+
         <div class="alert" id="alert" style="display: none;"></div>
         <div id="protected" style="display: none;">
             <p>This is the protected content that only authorized users can see!</p>
         </div>
     </div>
     
-    <script src="scripts/secrets.js"></script>
+    <script src="/scripts/secrets.js"></script>
 </body>
 </html>
