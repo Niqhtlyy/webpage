@@ -13,14 +13,15 @@ body {
 }
 
 #content {
-    text-align: center; /* Center text inside content */
     background-color: #1e1e1e; /* Darker content background */
     border: 1px solid #333; /* Border color */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
-    width: 90%; /* Make it responsive */
-    max-width: 400px; /* Limit maximum width */
+    text-align: center; /* Center text inside content */
+    display: flex; /* Make the content a flex container */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center children horizontally */
 }
 
 h1 {
@@ -36,8 +37,7 @@ input[type="password"] {
     padding: 10px;
     border: 1px solid #444; /* Dark border */
     border-radius: 5px;
-    width: 70%; /* Adjust width */
-    max-width: 200px; /* Limit max width */
+    width: 200px;
     background-color: #2a2a2a; /* Dark input background */
     color: #ffffff; /* Light text for input */
 }
@@ -51,7 +51,6 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin-left: 10px; /* Space between input and button */
-    transition: background-color 0.3s ease; /* Smooth background transition */
 }
 
 button:hover {
