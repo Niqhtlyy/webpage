@@ -1,7 +1,7 @@
 let correctPassphrase = "";
 
 async function loadPassphrase() {
-    const response = await fetch('passphrase.txt');
+    const response = await fetch('ph.txt');
     correctPassphrase = await response.text();
 }
 
