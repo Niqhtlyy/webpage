@@ -7,7 +7,7 @@ document.getElementById("passwordForm").addEventListener("submit", async functio
     const enteredPasswordHash = await hashPassword(enteredPassword);
 
     if (enteredPasswordHash === correctPasswordHash) {
-        null
+        window.location.replace("https://docs.google.com/document/d/1EEZSBQEq0Pq4ECa86zJnIzB9GpcwwvdIWoDs3F2Y6bg/edit?usp=sharing")
     } else {
         alert("The password you have entered is wrong, you probably don't have access!");
     }
